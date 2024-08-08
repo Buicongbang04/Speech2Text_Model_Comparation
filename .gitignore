@@ -1,10 +1,7 @@
 script
 test_audio
 train_audio
-wav_test_audio
-wav_train_audio
-*.wav
 comparePhoWhisperAndWhisper.ipynb
 process_whisperand_phowhisper_result.ipynb
-*csv
+
 Whisper_VS_PhoWhisper.ipynb

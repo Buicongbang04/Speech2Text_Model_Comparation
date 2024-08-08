@@ -1,5 +1,6 @@
 import os
 import numpy as np
+import pandas as pd
 import ast
 
 # Prepocessing data
@@ -36,3 +37,7 @@ for idx, train in enumerate(valTrain):
   valTrain[idx]['path'] = os.path.join('wav_train_audio/' + valTrain[idx]['file']+'.wav' )
   
 data = valTest + valTrain
+
+# Save to file csv
+df = pd.DataFrame(data)
+df.to_csv('valTest.csv', index=False)

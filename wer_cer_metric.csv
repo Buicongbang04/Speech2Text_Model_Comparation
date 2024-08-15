@@ -1,0 +1,4 @@
+Model,WER,CER
+Whisper,0.776,0.606
+PhoWhisper,0.26,0.203
+Wav2Vec,0.272,0.199
